@@ -4,7 +4,7 @@ A Wordpress starter theme using Vite &amp; Sass
 
 ### Installation
 
-#### Install packagages
+#### Install packages
 
 `npm i`
 
