@@ -1,6 +1,8 @@
-# wp-vite
+# WP Vite️
 
-A Wordpress starter theme using Vite &amp; Sass
+#### ⚡ WordPress Starter Theme using Vite &amp; Sass
+
+–––––––––––––––––––––––––––––––––––––––––––
 
 ### Installation
 
