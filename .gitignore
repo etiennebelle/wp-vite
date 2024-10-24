@@ -3,9 +3,6 @@
 #Generated Assets
 /dist
 
-#Ignore Node dependecies directory
-/node_modules
-
 #Fonts
 /src/fonts/*
 !src/fonts/.gitkeep
