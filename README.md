@@ -2,8 +2,6 @@
 
 #### ⚡ WordPress Starter Theme using Vite &amp; Sass
 
-–––––––––––––––––––––––––––––––––––––––––––
-
 ### Installation
 
 #### Install packages
