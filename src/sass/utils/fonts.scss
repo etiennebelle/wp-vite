@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "NeueMontreal-Regular";
+  src: url("/src/fonts/NeueMontreal-Regular.otf") format('opentype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+.headline {
+  color: red;
+  font-family: "NeueMontreal-Regular", sans-serif;
+
+  &-xl {
+    font-size: vw(85px);
+    line-height: vw(85px);
+  }
+}

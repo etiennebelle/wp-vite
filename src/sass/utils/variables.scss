@@ -1,0 +1,23 @@
+:root {
+  --color-black: #000;
+  --color-white: #FFF;
+  --color-light: #F9F9F9;
+  --color-gray: #DDDDDD;
+}
+
+$mobile-max: 640px;
+$tablet-min: 641px;
+$tablet-max: 1007px;
+$laptop-min: 1008px;
+$laptop-max: 1239px;
+$desktop-min: 1240px;
+$widescreen-min: 1500px;
+
+$mobile: "screen and (max-width: #{$mobile-max})";
+$tablet: "screen and (min-width: #{$tablet-min}) and (max-width: #{$tablet-max})";
+$tablet-and-up: "screen and (min-width: #{$tablet-min})";
+$pocket: "screen and (max-width: #{$tablet-max})";
+$laptop: "screen and (min-width: #{$laptop-min}) and (max-width:#{$laptop-max})";
+$laptop-and-up: "screen and (min-width: #{$laptop-min})";
+$desktop: "screen and (min-width: #{$desktop-min})";
+$widescreen: "screen and (min-width: #{$widescreen-min})";

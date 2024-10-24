@@ -1,0 +1,54 @@
+// Function to convert pixels to vw.
+@function vw($px, $base-vw: 1440px) {
+  @return calc(($px * 100vw) / $base-vw);
+}
+
+// Function to convert pixels to rem.
+@function rem($px, $context: 16px) {
+  @if (unitless($px)) {
+    $px: $px * 1px;
+  }
+
+  @if (unitless($context)) {
+    $context: $context * 1px;
+  }
+
+  @return calc($px / $context * 1rem);
+}
+
+// Mixin to handle media queries.
+@mixin device($alias) {
+  @if $alias == "mobile" {
+    @media #{$mobile} {
+      @content;
+    }
+  } @else if $alias == "tablet" {
+    @media #{$tablet} {
+      @content;
+    }
+  } @else if $alias == "tablet-and-up" {
+    @media #{$tablet-and-up} {
+      @content;
+    }
+  } @else if $alias == "pocket" {
+    @media #{$pocket} {
+      @content;
+    }
+  } @else if $alias == "laptop" {
+    @media #{$laptop} {
+      @content;
+    }
+  } @else if $alias == "laptop-and-up" {
+    @media #{$laptop-and-up} {
+      @content;
+    }
+  } @else if $alias == "desktop" {
+    @media #{$desktop} {
+      @content;
+    }
+  } @else if $alias == "widescreen" {
+    @media #{$widescreen} {
+      @content;
+    }
+  }
+}
