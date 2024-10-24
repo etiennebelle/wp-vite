@@ -7,7 +7,7 @@
 /node_modules
 
 #Fonts
-/public/fonts/*
-!public/fonts/.gitkeep
-/public/img/*
-!public/img/.gitkeep
+/src/fonts/*
+!src/fonts/.gitkeep
+/src/img/*
+!src/img/.gitkeep
